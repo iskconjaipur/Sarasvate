@@ -12,15 +12,15 @@ import Hero from "@/components/Home/08Hero/Hero";
 export default function Home() {
   return (
     <>
-       {/* <Testimonial />   
-     <Services /> 
-       <Portfolio /> 
+      <Hero />
+      {/* <Testimonial />   
+      <Services /> 
+      <Portfolio /> 
       <Contact />
       <SDLC />   
       <Project />
       <Industries />
       <Differ />  */}
-      <Hero />
     </>
   );
 }
