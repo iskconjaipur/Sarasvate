@@ -59,7 +59,7 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
           >
             <h1 className={`${dancing.className} text-8xl mt-20`}>
-              Contact Us
+              Contact Us 
             </h1>
           </motion.div>
         </div>

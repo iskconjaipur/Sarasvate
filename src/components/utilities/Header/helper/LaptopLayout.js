@@ -147,7 +147,7 @@ const LaptopLayout = ({ toggleDrawer = () => {} }) => {
         </div>
 
         <div className="flex gap-x-5">
-          <div className="hidden lg:flex space-x-4">
+          {/* <div className="hidden lg:flex space-x-4">
             <ul className="flex m-0 flex-col lg:flex-row lg:items-center font-medium text-white">
               <li>
                 <Link href="/contact-us" className={getLinkClassName("/contact-us")}>
@@ -155,7 +155,7 @@ const LaptopLayout = ({ toggleDrawer = () => {} }) => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <div className="flex items-center lg:space-x-4 space-x-2">
             <div className="w-36 h-12 flex items-center justify-center">

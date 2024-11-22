@@ -8,19 +8,21 @@ import Portfolio from "@/components/Home/05Portfolio/Portfolio";
 import Industries from "@/components/Home/06Industries/Industries";
 import Differ from "@/components/Home/07Differ/Differ";
 import Hero from "@/components/Home/08Hero/Hero";
+import ContactInfo from "@/components/ContactUs/ContactInfo/ContactInfo";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      {/* <Testimonial />   
+      <Testimonial />   
       <Services /> 
-      <Portfolio /> 
-      <Contact />
+      {/* <Portfolio />  */}
+      {/* <Contact /> */}
       <SDLC />   
       <Project />
       <Industries />
-      <Differ />  */}
+      <Differ /> 
+      <ContactInfo />
     </>
   );
 }
