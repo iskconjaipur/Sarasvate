@@ -144,7 +144,7 @@ const Industries = () => {
                 >
                   {industry.description}
                 </p>
-                <button
+                {/* <button
                   className={`bg-blue-500 hover:bg-blue-700 text-white font-semibold py-[10px] px-[16px] mt-[10px] text-[12px] md:text-[14px] lg:text-[16px] flex items-center justify-center gap-2 ml-5 ${pop.className}`}
                 >
                   Read More
@@ -162,7 +162,7 @@ const Industries = () => {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </button>
+                </button> */}
               </div>
             </motion.div>
           ))}

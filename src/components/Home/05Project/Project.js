@@ -17,7 +17,7 @@ const textVariants = {
 
 const cardData = [
   {
-    title: "HRMS",
+    title: "Online Puja",
     description:
       "Seamlessly integrate with HRMS for synchronized attendance data, optimizing workforce management and enhancing overall operational efficiency. Seamlessly integrate with HRMS for synchronized attendance data, optimizing workforce management and enhancing overall operational efficiency.",
     points: [
@@ -25,11 +25,11 @@ const cardData = [
       "Real-Time Attendance Tracking",
       "Enhanced Operational Efficiency",
     ],
-    image: "Home/tech.webp", // Replace with actual image path
+    image: "Home/puja1.png", // Replace with actual image path
     icon: "/path-to-your-icon/hrms-icon.png", // Replace with actual icon path
   },
   {
-    title: "Inventory & Warehouse",
+    title: "GTIC",
     description:
       "Unlock seamless distribution and real-time inventory oversight with our advanced warehouse solution, automating your supply chain for rapid operations, optimal stock levels, and cost-effective storage.",
     points: [
@@ -37,11 +37,11 @@ const cardData = [
       "Optimized Stock Levels",
       "Cost-Effective Storage",
     ],
-    image: "Home/tech.webp", // Replace with actual image path
+    image: "Home/gtic2.png", // Replace with actual image path
     icon: "/path-to-your-icon/inventory-warehouse-icon.png", // Replace with actual icon path
   },
   {
-    title: "ERP System",
+    title: "ISKCON jaipur",
     description:
       "Integrate with ERP to streamline business processes, boost productivity, and ensure efficient resource management.",
     points: [
@@ -49,7 +49,7 @@ const cardData = [
       "Boosted Productivity",
       "Streamlined Business Processes",
     ],
-    image: "Home/tech.webp", // Replace with actual image path
+    image: "Home/jai1.png", // Replace with actual image path
     icon: "/path-to-your-icon/erp-icon.png", // Replace with actual icon path
   },
 ];
@@ -116,8 +116,7 @@ const Deities = () => {
                 ref={ref} // Attach ref to each card
               >
                 {/* Transparent black overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
-
+                <div className="absolute inset-0 bg-black bg-opacity-75 z-10"></div>
                 {/* Conditionally render titles, descriptions, and points */}
                 {isMdScreen && hoveredIndex === index ? (
                   <div className="relative z-20 text-white font-bold text-center md:text-3xl text-lg p-5">
@@ -201,13 +200,13 @@ const Deities = () => {
                         </motion.div>
                       </div>
                       {/* Right Bottom Logo */}
-                      <div className="absolute right-5 bottom-5">
+                      {/* <div className="absolute right-5 bottom-5">
                         <img
                           className="w-20 h-20"
                           src="Home/jaipur.png"
                           alt="logo"
                         />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 ) : (
@@ -288,7 +287,6 @@ const Deities = () => {
                             <button
                               className={`${pop.className} bg-blue-500 text-[16px] text-white px-2 py-2 rounded-lg flex items-center justify-center hover:bg-blue-600 transition duration-300 ease-in-out transform hover:scale-105`}
                             >
-                              View More
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
