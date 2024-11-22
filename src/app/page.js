@@ -13,15 +13,15 @@ import ContactInfo from "@/components/ContactUs/ContactInfo/ContactInfo";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Testimonial />   
+      <Hero />   
+      <Differ /> 
       <Services /> 
       {/* <Portfolio />  */}
       {/* <Contact /> */}
-      <SDLC />   
-      <Project />
       <Industries />
-      <Differ /> 
+      <SDLC /> 
+      <Project />
+      <Testimonial />
       <ContactInfo />
     </>
   );

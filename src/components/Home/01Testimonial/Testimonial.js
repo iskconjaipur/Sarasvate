@@ -19,35 +19,23 @@ const roboto2 = Roboto({
 const Testimonial = () => {
   const testimonials = [
     {
-      text: "XB Software exceeded expectations and delivered the product in a speedy turnaround. Dedication and expertise are hallmarks of this development company’s high-quality work.",
-      author: "Dave Conlan",
-      role: "Managing Director, BackGate",
+      text: "Their team demonstrated exceptional expertise and creativity, delivering a user-friendly and high-performance application on time and within budget. The seamless collaboration and proactive communication made the entire development process smooth and enjoyable",
+      author: "Sophia Martinez",
+      role: "CTO at InnovateX",
       image: "https://via.placeholder.com/50",
     },
     {
-      text: "XB Software team is the best development company that I ever worked with before. They were very quick, efficient, and accomplished the software development in less time, excellent team!",
-      author: "Luisa Andrino",
-      role: "IT Projects Coordinator at Aeroman",
+      text: "The web development team at [Your Company Name] exceeded our expectations. They crafted a stunning, responsive website that perfectly represents our brand and enhances user experience. Their attention to detail and dedication to understanding our requirements were remarkable.",
+      author: "Abhinav Arora",
+      role: "Founder of GreenLeaf Solutions",
       image: "https://via.placeholder.com/50",
     },
     {
-      text: "We found XB Software to be extremely professional, starting with understanding requirements, recommending alternative design options, meeting deadlines with a high-quality software development product.",
-      author: "Shreekanth Vankamamidi",
-      role: "Director at App Orchid Inc",
+      text: "Their innovative approach and deep understanding of the market helped us create a product that stands out. From initial concept to final launch, their team was supportive, responsive, and incredibly skilled. We’re thrilled with the results and look forward to future projects together.",
+      author: "Amit Sharma",
+      role: "CEO of TechNova",
       image: "https://via.placeholder.com/50",
-    },
-    {
-      text: "XB Software team is the best development company that I ever worked with before. They were very quick, efficient, and accomplished the software development in less time, excellent team!",
-      author: "Luisa Andrino",
-      role: "IT Projects Coordinator at Aeroman",
-      image: "https://via.placeholder.com/50",
-    },
-    {
-      text: "We found XB Software to be extremely professional, starting with understanding requirements, recommending alternative design options, meeting deadlines with a high-quality software development product.",
-      author: "Shreekanth Vankamamidi",
-      role: "Director at App Orchid Inc",
-      image: "https://via.placeholder.com/50",
-    },
+    }
   ];
 
   return (
@@ -126,7 +114,7 @@ const Testimonial = () => {
             <SwiperSlide key={index}>
               <div className="max-w-lg mx-auto bg-white rounded-lg p-6 shadow-md relative z-20">
                 <img className="w-10 h-10 -mb-3 -ml-3" src='/Home/testimonial/quote1.svg'></img>
-                <p className={`text-[#292d32] italic mb-4 ${roboto2.className} text-[16px]`}>
+                <p className={`text-[#292d32] italic mb-4 ${roboto2.className} text-[16px] text-justify`}>
                   "{testimonial.text}"
                 </p>
                 <div className="flex items-center">
