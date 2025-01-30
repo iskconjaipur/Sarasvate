@@ -1,0 +1,160 @@
+/* FooterPage.module.css */
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds space between rows */
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds space between the image and the text */
+}
+
+.contact-icon {
+  height: 20px;
+}
+
+.contact-text {
+  color: white; /* Adjust text color if needed */
+  font-size: 16px; /* Adjust font size if needed */
+}
+
+.footer-container {
+  padding: 40px 0;
+  color: black;
+  background: linear-gradient(to right, #626262 25%, #a045a6 75%);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-description {
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  padding: 14px;
+  gap: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+}
+
+.footer-links,
+.footer-contact {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white; /* Set the text color to white */
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer-bottom a {
+  color: white; /* Set the text color to white */
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 10px; /* Optional: Add padding for smaller screens */
+  }
+
+  .footer-logo img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .social-links a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 20px 0;
+  }
+
+  .footer-column {
+    padding: 0 10px;
+  }
+
+  .footer-logo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .social-links a {
+    font-size: 18px;
+    margin: 0 8px;
+  }
+
+  .footer-description {
+    font-size: 14px;
+  }
+
+  .footer-links a,
+  .footer-contact li {
+    font-size: 14px;
+  }
+}

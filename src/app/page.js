@@ -1,3 +1,4 @@
+import RazorpayButton from "@/components/Home/RazorpayButton";
 import Image from "next/image";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
             .
           </li>
           <li>Save and see your changes instantly.</li>
+          <RazorpayButton />
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">

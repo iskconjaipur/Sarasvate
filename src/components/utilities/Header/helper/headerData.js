@@ -62,9 +62,9 @@ export const tabs = [
       { name: "ISKCON Jaipur", path: "/projects/iskcon-jaipur" },
       { name: "ISKCON Puja", path: "/projects/iskcon-puja" },
       { name: "GTIC", path: "/projects/gtic" },
-      { name: "Gitaverse", path: "/projects/gitaverse" },
-      { name: "ISKCON Chittorgarh", path: "/projects/iskcon-chittorgarh" },
-      { name: "IYF Dashboard", path: "/projects/iyf-dashboard" },
+      // { name: "Gitaverse", path: "/projects/gitaverse" },
+      // { name: "ISKCON Chittorgarh", path: "/projects/iskcon-chittorgarh" },
+      // { name: "IYF Dashboard", path: "/projects/iyf-dashboard" },
     ],
   },
 ];
